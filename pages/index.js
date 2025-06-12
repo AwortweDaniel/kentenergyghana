@@ -10,7 +10,7 @@ export default function Home() {
       
       <section className="relative h-[600px] text-white">
   <Image
-    src="/energy-hero.PNG"
+    src="/energy-hero.png"
     alt="Kent Energy Hero"
     layout="fill"
     objectFit="cover"
@@ -33,8 +33,8 @@ export default function Home() {
     <h2 className="text-center text-3xl font-bold mb-10">Our Core Services</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {[
-        { title: 'Drilling Support', icon: '/icons/drilling.png', desc: 'Safe and efficient wellsite operations' },
-        { title: 'Marine Logistics', icon: '/icons/ship.png', desc: 'Crew and cargo to remote rigs' },
+        { title: 'Drilling Support', icon: '/icons/DRILLING.png', desc: 'Safe and efficient wellsite operations' },
+        { title: 'Marine Logistics', icon: '/icons/SHIP.png', desc: 'Crew and cargo to remote rigs' },
         { title: 'Pipeline Construction', icon: '/icons/pipeline.png', desc: 'Engineering, welding, and testing' },
       ].map((item, i) => (
         <div key={i} className="bg-white shadow-md p-6 rounded text-center">

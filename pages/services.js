@@ -5,47 +5,47 @@ export default function Services() {
     {
       title: "Drilling & Production Support",
       desc: "We manage drilling operations through logistics, manpower, and wellsite support — including rig mobilization, intervention, and production optimization. Often delivered with global partners.",
-      image: "/services/drilling.jpg",
+      image: "/services/drilling.png",
     },
     {
       title: "Installation & Marine Contracting",
       desc: "From FPSO hook-ups to subsea risers and heavy lifts, we deliver or co-execute complex offshore and onshore installations. We get the job done safely and on time.",
-      image: "/services/installation.jpg",
+      image: "/services/installation.png",
     },
     {
       title: "Vessel Chartering & Marine Logistics",
       desc: "We provide AHTS, PSVs, barges, crew boats, and offshore support — including bunkering, towing, supply runs, and standby services through direct ops or charter agreements.",
-      image: "/services/marine-logistics.jpg",
+      image: "/services/marine-logistics.png",
     },
     {
       title: "Fuel Trading & Bulk Distribution",
       desc: "We supply diesel, petrol, marine fuel, and aviation fuel to industries and agencies — under licensed partnerships with local and regional distributors.",
-      image: "/services/fuel.jpg",
+      image: "/services/fuel.png",
     },
     {
       title: "Oilfield Logistics & Remote Ops",
       desc: "We handle all logistics — from camp services to heavy haulage, procurement, and remote crew movement — for upstream and infrastructure clients.",
-      image: "/services/logistics.jpg",
+      image: "/services/logistics.png",
     },
     {
       title: "Pipeline Construction & Maintenance",
       desc: "We build and maintain pipelines across terrains — handling ROW clearance, welding, pigging, inspections, and testing — in compliance with safety and integrity standards.",
-      image: "/services/pipeline.jpg",
+      image: "/services/pipeline.png",
     },
     {
       title: "Tank Cleaning & Industrial Maintenance",
       desc: "We clean crude and fuel tanks, manage shutdowns, pipeline flushing, corrosion protection, and more — with certified teams trained for confined spaces and hazardous work.",
-      image: "/services/tank.jpg",
+      image: "/services/tank.png",
     },
     {
       title: "Renewable Energy & Transition",
       desc: "We support solar, hybrid, and LPG systems, offer energy audits, and guide clients through the energy transition. Local execution backed by global insight.",
-      image: "/services/renewable.jpg",
+      image: "/services/renewable.png",
     },
     {
       title: "Training & Competency Development",
       desc: "Through Kent Energy Training Institute, we offer HSE, marine, and industrial training programs aligned with Apave and other global standards.",
-      image: "/services/training.jpg",
+      image: "/services/training.png",
     },
   ];
 
@@ -66,6 +66,8 @@ export default function Services() {
                   alt={s.title}
                   layout="fill"
                   objectFit="cover"
+                  // width={300}
+                  // height={200}
                 />
               </div>
               <div className="p-5">
